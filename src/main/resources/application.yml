@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /api/user-data-storage
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/test
+  jackson:
+    default-property-inclusion: non_null
+
